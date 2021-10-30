@@ -130,7 +130,7 @@ margin: 20px;
 #about{
 
     height: 700px;
-    background:url("../images/bg4.jpg");
+    background:url("images/bg4.jpg");
     display: block;
     width: 100%;
     }
@@ -219,7 +219,7 @@ margin: 20px;
         width: 100%;
         height: 700px;
         display: block;
-        background: url("../images/bg4.jpg");
+        background: url("images/bg4.jpg");
     }
     #contact{
         width: 100%;
