@@ -1,0 +1,350 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+    box-sizing: border-box; 
+  
+
+
+}
+
+    
+.header{
+    height: 100vh;
+    width: 100%;
+    background: url(../images/bg3.jpg) no-repeat ;
+    
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+
+     
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 100px;
+}
+#img-1{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+
+  
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+   list-style: none;
+   display: inline-block;
+   padding: 8px 12px;
+   position: relative;
+
+
+}
+.nav-links ul li a{
+    color: #000;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: crimson;
+    display: block;
+    margin: auto;
+    transition: .5s;
+
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.text-box{
+    color: #000;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    text-align:center;
+
+}
+.text-box h1{ 
+    font-size: 40px;
+    color:lightcoral;
+    font-family:cursive;
+
+}
+.text-box p{
+    font-size: 20px;
+    line-height: 30px;
+    margin: 20px;
+}
+.btn{
+    display:inline-block ;
+    text-decoration: none;
+    color:#000;
+    border: 2px solid lightcoral;
+    padding: 5px;
+    margin: 5px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+   
+
+
+
+}
+
+#timg{
+border-radius: 50%;
+display: flex;
+padding: 20px;
+margin: 20px;
+
+}
+.style{
+    
+    display: inline-block;
+
+}
+.btn:hover{
+    border: 2px solid white; 
+    background-color:lightcoral ;
+    transition: 1s;
+    color: lightcyan;
+
+}
+
+#about{
+
+    height: 700px;
+    background:url(../images/bg4.jpg);
+    display: block;
+    width: 100%;
+    }
+    .about-area h1{
+        font-family: sans-serif;
+        margin-left: 40%;
+        margin-top: 20px;
+        padding: 20px;
+        font-weight: 400;
+        color:black;
+        font-size: 40px;
+        
+    }
+    .about-area p{
+        position: absolute;
+        font-family:fantasy;
+        margin-top: 10px;
+        font-size: 16px;
+        left: 30%;
+        text-align: center;
+        color:lightcoral;
+    }
+    .c{
+        display: flex;
+        flex-wrap:wrap;
+        box-sizing: border-box;
+        align-items: center;
+    justify-content: center;
+    padding: 30px;
+    }
+    
+    .body-about {
+        width:300px;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        border-radius: 10px;
+        box-shadow: 1px 2px 3px rgb(126, 123, 123);
+        margin: 20px;
+        margin-top: 5%;
+        box-sizing: border-box;
+        background-color: white;
+        transition: .5s;
+      
+    
+    
+        
+    
+    }
+    .body-about:hover{
+        box-shadow: 2px 4px 6px lightcoral;
+        height: 350px;
+    }
+    .bengali ul li{
+        display: none;
+    
+    }
+    .bengali:hover ul li{
+        display: block;
+    }
+    .india ul li{
+        display: none;
+    
+    }
+    .india:hover ul li{
+        display: block;
+    }
+    .chiness ul li{
+        display: none;
+    
+    }
+    .chiness:hover ul li{
+        display: block;
+    }
+    #ourshop{
+        width: 100%;
+        height: 700px;
+        display: block;
+        background:ivory;
+        
+    }
+    
+    #faq{
+        width: 100%;
+        height: 700px;
+        display: block;
+        background: url(../images/bg4.jpg);
+    }
+    #contact{
+        width: 100%;
+        height: 400px;
+        display: block;
+        background:black;
+    }
+    
+    
+    .contact-area h1{
+        padding: 30px;
+        text-align: center;
+        color: whitesmoke;
+        transition: .5s;
+        
+         
+
+
+    }
+    .contact-area h1:hover{
+        padding: 30px;
+        text-align: center;
+        color: rgb(182, 41, 41);
+        
+         
+
+
+    }
+    .contact-area h4{
+        text-align: center;
+        padding: 30px;
+        color: white;
+    }
+    .contact-area p{
+        text-align: center;
+        letter-spacing: 2px;
+        line-height: 30px;
+        color: lightcoral;
+
+    }
+
+
+
+
+
+
+
+
+      .our-shoparea h1{
+
+      margin: 10px;
+      padding: 10px;
+      text-align: center;
+      color: lightcoral;
+
+      }
+      .our-shoparea p{
+          color: gray;
+
+
+        margin: 10px;
+        padding: 5px;
+        text-align: center;
+  
+        }
+       
+
+
+
+
+
+
+
+
+    .faq-area p{
+        display: block;
+        font-size: 18px;
+        padding: 20px;
+        color: gray;
+        text-align: center;
+        text-decoration: solid;
+
+    }
+    .faq-area h1{
+        color: lightcoral;
+        text-align: justify;
+        padding: 20px;
+
+
+    }
+    .faq-area h4{
+        color: black;
+        font-size: 20px;
+        
+    }
+    .fotter{
+        background: lightcoral;
+        display: flex;
+        
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .fotter ul li{
+    list-style: none;
+   display: inline-block;
+   padding: 8px 12px;
+   position: relative;
+
+
+    }
+    .fotter ul li a{
+        color:whitesmoke;
+        text-decoration: none;
+        font-size: 15px;
+        font-family: sans-serif;
+        transition: .5s;
+        
+    }
+
+.fotter ul li a:hover{
+    color: black;
+    
+}
+
+   
+    
